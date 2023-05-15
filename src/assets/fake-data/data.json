@@ -1,0 +1,168 @@
+{
+    "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=indie&type=track&locale=en-GB%2Cen%3Bq%3D0.9%2Cen-US%3Bq%3D0.8&offset=0&limit=2",
+      "limit": 2,
+      "next": "https://api.spotify.com/v1/search?query=indie&type=track&locale=en-GB%2Cen%3Bq%3D0.9%2Cen-US%3Bq%3D0.8&offset=2&limit=2",
+      "offset": 0,
+      "previous": null,
+      "total": 28,
+      "items": [
+        {
+          "album": {
+            "album_type": "album",
+            "total_tracks": 12,
+            "available_markets": ["AD", "AE", "AG", "AL", "AM", "AO", "AR", "AT", "AU", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CD", "CG", "CH", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "ET", "FI", "FJ", "FM", "FR", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NO", "NP", "NR", "NZ", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SE", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW"],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4piJq7R3gjUOxnYs6lDCTg"
+            },
+            "href": "https://api.spotify.com/v1/albums/4piJq7R3gjUOxnYs6lDCTg",
+            "id": "4piJq7R3gjUOxnYs6lDCTg",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273ccdddd46119a4ff53eaf1f5d",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02ccdddd46119a4ff53eaf1f5d",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851ccdddd46119a4ff53eaf1f5d",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Hot Fuss",
+            "release_date": "2004",
+            "release_date_precision": "year",
+            "type": "album",
+            "uri": "spotify:album:4piJq7R3gjUOxnYs6lDCTg",
+            "album_group": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu"
+                },
+                "href": "https://api.spotify.com/v1/artists/0C0XlULifJtAgn6ZNCW2eu",
+                "id": "0C0XlULifJtAgn6ZNCW2eu",
+                "name": "The Killers",
+                "type": "artist",
+                "uri": "spotify:artist:0C0XlULifJtAgn6ZNCW2eu"
+              }
+            ]
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0C0XlULifJtAgn6ZNCW2eu"
+              },
+              "href": "https://api.spotify.com/v1/artists/0C0XlULifJtAgn6ZNCW2eu",
+              "id": "0C0XlULifJtAgn6ZNCW2eu",
+              "name": "The Killers",
+              "type": "artist",
+              "uri": "spotify:artist:0C0XlULifJtAgn6ZNCW2eu"
+            }
+          ],
+          "available_markets": ["AR", "AU", "AT", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "DE", "EC", "EE", "SV", "FI", "FR", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NZ", "NI", "NO", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "SE", "CH", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "BY", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK"],
+          "disc_number": 1,
+          "duration_ms": 254653,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBFFP0300058"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0751ozQYIiLVQ9FRFhe55j"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0751ozQYIiLVQ9FRFhe55j",
+          "id": "0751ozQYIiLVQ9FRFhe55j",
+          "name": "Glamorous Indie Rock & Roll",
+          "popularity": 50,
+          "preview_url": "https://p.scdn.co/mp3-preview/91eede90a99f6dfb39995b072b29d51157062de6?cid=0b297fa8a249464ba34f5861d4140e58",
+          "track_number": 12,
+          "type": "track",
+          "uri": "spotify:track:0751ozQYIiLVQ9FRFhe55j",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "compilation",
+            "total_tracks": 29,
+            "available_markets": ["AD", "AE", "AG", "AL", "AM", "AO", "AR", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BN", "BO", "BR", "BS", "BT", "BW", "BZ", "CA", "CD", "CG", "CI", "CL", "CM", "CO", "CR", "CV", "CW", "CY", "CZ", "DJ", "DM", "DO", "DZ", "EC", "EE", "EG", "ES", "ET", "FJ", "FM", "GA", "GB", "GD", "GE", "GH", "GM", "GN", "GQ", "GR", "GT", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "ID", "IE", "IL", "IN", "IQ", "IS", "IT", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KR", "KW", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MG", "MH", "MK", "ML", "MN", "MO", "MR", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NE", "NG", "NI", "NL", "NP", "NR", "OM", "PA", "PE", "PG", "PH", "PK", "PL", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RW", "SA", "SB", "SC", "SG", "SI", "SK", "SL", "SM", "SN", "SR", "ST", "SV", "SZ", "TD", "TG", "TH", "TJ", "TL", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VC", "VE", "VN", "VU", "WS", "XK", "ZA", "ZM", "ZW"],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/6FhZ0kqWVdKQOuJyyaZcfD"
+            },
+            "href": "https://api.spotify.com/v1/albums/6FhZ0kqWVdKQOuJyyaZcfD",
+            "id": "6FhZ0kqWVdKQOuJyyaZcfD",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27357d758058ff2d33f78b704e6",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0257d758058ff2d33f78b704e6",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485157d758058ff2d33f78b704e6",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Boost Yourself",
+            "release_date": "2023-05-12",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:6FhZ0kqWVdKQOuJyyaZcfD",
+            "album_group": "compilation",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+                },
+                "href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+                "id": "0LyfQWJT6nXafLPZqxe9Of",
+                "name": "Various Artists",
+                "type": "artist",
+                "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+              }
+            ]
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2VSHKHBTiXWplO8lxcnUC9"
+              },
+              "href": "https://api.spotify.com/v1/artists/2VSHKHBTiXWplO8lxcnUC9",
+              "id": "2VSHKHBTiXWplO8lxcnUC9",
+              "name": "GAYLE",
+              "type": "artist",
+              "uri": "spotify:artist:2VSHKHBTiXWplO8lxcnUC9"
+            }
+          ],
+          "available_markets": ["AR", "BE", "BO", "BR", "BG", "CA", "CL", "CO", "CR", "CY", "CZ", "DO", "EC", "EE", "SV", "GR", "GT", "HN", "HK", "HU", "IS", "IE", "IT", "LV", "LT", "LU", "MY", "MT", "MX", "NL", "NI", "PA", "PY", "PE", "PH", "PL", "PT", "SG", "SK", "ES", "TW", "TR", "UY", "US", "GB", "AD", "LI", "MC", "ID", "JP", "TH", "VN", "RO", "IL", "ZA", "SA", "AE", "BH", "QA", "OM", "KW", "EG", "MA", "DZ", "TN", "LB", "JO", "PS", "IN", "KZ", "MD", "UA", "AL", "BA", "HR", "ME", "MK", "RS", "SI", "KR", "BD", "PK", "LK", "GH", "KE", "NG", "TZ", "UG", "AG", "AM", "BS", "BB", "BZ", "BT", "BW", "BF", "CV", "CW", "DM", "FJ", "GM", "GE", "GD", "GW", "GY", "HT", "JM", "KI", "LS", "LR", "MW", "MV", "ML", "MH", "FM", "NA", "NR", "NE", "PW", "PG", "WS", "SM", "ST", "SN", "SC", "SL", "SB", "KN", "LC", "VC", "SR", "TL", "TO", "TT", "TV", "VU", "AZ", "BN", "BI", "KH", "CM", "TD", "KM", "GQ", "SZ", "GA", "GN", "KG", "LA", "MO", "MR", "MN", "NP", "RW", "TG", "UZ", "ZW", "BJ", "MG", "MU", "MZ", "AO", "CI", "DJ", "ZM", "CD", "CG", "IQ", "LY", "TJ", "VE", "ET", "XK"],
+          "disc_number": 1,
+          "duration_ms": 146769,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "USAT22211102"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/7dghCYsnRZ3c7HPg0NWi8z"
+          },
+          "href": "https://api.spotify.com/v1/tracks/7dghCYsnRZ3c7HPg0NWi8z",
+          "id": "7dghCYsnRZ3c7HPg0NWi8z",
+          "name": "indieedgycool",
+          "popularity": 0,
+          "preview_url": "https://p.scdn.co/mp3-preview/e2a7115cd99fa78a82135445c557114e0f04ef5a?cid=0b297fa8a249464ba34f5861d4140e58",
+          "track_number": 15,
+          "type": "track",
+          "uri": "spotify:track:7dghCYsnRZ3c7HPg0NWi8z",
+          "is_local": false
+        }
+      ]
+    }
+  }
