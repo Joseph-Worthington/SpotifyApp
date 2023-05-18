@@ -7,17 +7,17 @@ import TrackList from './component/Tracklist'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <body id="App">
-        <div class="">
+      <div className="App-header">
+      </div>
+      <div id="App">
+        <div className="">
           <SearchBar />
         </div>
-        <div class="tracks">
+        <div className="tracks">
           <SearchResults />
           <TrackList />
         </div>
-      </body>
+      </div>
     </div>
   );
 }

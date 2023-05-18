@@ -1,9 +1,13 @@
 import React from 'react';
 
-
-const Track = () => {
+const Track = ({key, name, artist}) => {
     return (
-        <section>Track</section>
+        //get the data from data.json
+        <section id={key}>
+            <h1>Track</h1>
+            <p>{name}</p>
+            <p>{artist}</p>
+        </section>
     );
 }
 
