@@ -1,7 +1,8 @@
 import './assets/css/style.css';
 import SearchBar from './component/SearchBar';
-import SearchResults from './component/SerachResults';
+import SearchResults from './component/SearchResults';
 import TrackList from './component/Tracklist'
+import PlayList from './component/PlayList';
 
 
 function App() {
@@ -15,7 +16,6 @@ function App() {
         </div>
         <div className="tracks">
           <SearchResults />
-          <TrackList />
         </div>
       </div>
     </div>
