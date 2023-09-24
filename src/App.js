@@ -1,11 +1,17 @@
+import React, { useState } from 'react';
+
 import './assets/css/style.css';
 import SearchBar from './component/SearchBar';
 import SearchResults from './component/SearchResults';
-import TrackList from './component/Tracklist'
-import PlayList from './component/PlayList';
+import Spotify from './util/Spotify';
+
+
+
 
 
 function App() {
+
+
   return (
     <div className="App">
       <div className="App-header">
@@ -20,6 +26,7 @@ function App() {
       </div>
     </div>
   );
+
 }
 
 export default App;

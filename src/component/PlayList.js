@@ -6,10 +6,12 @@ const PlayList = ({ playlistData, handleRemove  }) => {
 
    const initialPlaylistName = 'My Playlist';
 
+
     const handleRemoveClick  = (index) => {    
-        console.log('remove');
         handleRemove(index)
     };
+
+  
 
   return (
     <section className='playlist'>
@@ -20,7 +22,7 @@ const PlayList = ({ playlistData, handleRemove  }) => {
                 <button onClick={() => handleRemoveClick(index)}>Remove</button>
             </div>     
         ))}
-        <button>Save to Spotify</button>
+       
     </section>
   );
 };

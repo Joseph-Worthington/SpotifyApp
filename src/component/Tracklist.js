@@ -10,7 +10,7 @@ const TrackList = ({tracks, handleClick}) => {
             <section key={element.id}>
               <div className="track-wrapper">
                 <Track name={element.name} artist={element.artists[0].name} />
-                <button onClick={() => handleClick(element.name, element.artists[0].name)}>Add</button>
+                <button onClick={() => handleClick(element.name, element.artists[0].name, element.uri)}>Add</button>
               </div>
             </section>
           ))}

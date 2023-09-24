@@ -13,15 +13,14 @@ const SearchResults = () => {
     const [playlistData, setPlaylistData] = useState([]);
 
     
-    const handleClick = (songname, artist) => {
-        console.log(songname, artist);
+    const handleClick = (songname, artist, uri) => {
         const track = {
           name: songname,
-          artist: artist
+          artist: artist,
+          uri : uri
         };
         setPlaylistData(prevData => [...prevData, track]);
 
-        console.log(playlistData);
     };
 
     const handleRemove = (index) => {
@@ -30,11 +29,18 @@ const SearchResults = () => {
         setPlaylistData(updatedPlaylistData);
     };
 
+    const handleSaveToSpotify = () => {
+        const uris = playlistData.map((track) => track.uri);
+
+        setPlaylistData([uris])
+    };
+
 
     return ( 
-        <section class="Search Results">
+        <section className="Search Results">
             <TrackList tracks={tracks} handleClick={handleClick} />
             <PlayList playlistData={playlistData} handleRemove={handleRemove} />
+            <button onClick={handleSaveToSpotify}>Save to Spotify</button>
         </section>
     );
 }
